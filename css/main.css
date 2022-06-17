@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@100;400;600&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  display: flex;
+  background-color: #b90470;
+  height: 3.1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.infoP {
+  display: flex;
+}
+.infoP p {
+  font-size: 0.75rem;
+  padding-right: 1.25rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.iconsDiv i {
+  padding-right: 1rem;
+}
+
+/* section 1 */
+.sect1{
+    background-image: url("./images/image1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 738px;
+    width: 100%;
+    /* background-color: #b90470; */
+}
+nav{
+    background: #FFFFFF;
+    background-color: black;
+    box-shadow: 0px 2px 10px rgba(123, 123, 123, 0);
+    margin: 30px 140px;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLinks ul{
+    display: flex;
+    padding: 20px;
+}
+.navLinks ul li {
+    padding: 20px;
+}
+.contactBtn{
+    background-color: #b90470;
+    padding: 0.75rem 2rem;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
