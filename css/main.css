@@ -34,18 +34,19 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  height: 738px;
+  /* height: 738px; */
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 nav {
-  position: relative;
+  position: absolute;
   background: #ffffff;
   text-align: center;
   box-shadow: 0px 2px 10px rgba(123, 123, 123, 0);
-  margin: 2rem 11rem;
-  /* max-width: 1118px; */
+  top: 2rem;
+  left: 10rem;
+  right: 10rem;
+  max-width: 1118px;
   max-height: 5rem;
   display: flex;
   justify-content: space-around;
@@ -73,9 +74,7 @@ nav {
 .secondPart {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  margin-left: 11rem;
-  margin-top: 5rem;
+  padding: 12rem 10rem;
   color: #ffffff;
 }
 .secondPart h3 {
@@ -98,7 +97,7 @@ nav {
   margin-top: 3rem;
   color: #ffffff;
   font-weight: 600px;
-  width: 224px;
+  width: 14rem;
   text-align: center;
   border: none;
 }
@@ -109,4 +108,42 @@ nav {
 }
 .ndImg img {
   padding: 0 0.75rem 0;
+}
+/*info section  */
+.infoSect{
+  color: black;
+  background: #E5E5E5;
+  text-align: center;
+}
+.aboutPart{
+  display: flex;
+  justify-content: space-around;
+}
+.aboutPart>div{
+  padding-top:8rem ;
+  padding-bottom:5rem ;
+}
+.aboutPart>div:nth-child(1){
+  text-align: start;
+}
+.aboutPart>div:nth-child(1){
+  color: #B90470;
+  font-weight: 400px;
+}
+.aboutPart>div:nth-child(2){
+  width: 549px;
+}
+.aboutPart h3{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400px;
+  color: #343A3E;
+}
+.lorryImg{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.infoSect>div:nth-child(3){
+  padding: 3rem 18rem;
 }
