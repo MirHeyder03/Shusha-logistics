@@ -112,6 +112,9 @@ nav {
 /*info section  */
 .infoSect{
   color: black;
+
+  
+  
   background: #E5E5E5;
   text-align: center;
 }
@@ -146,4 +149,48 @@ nav {
 }
 .infoSect>div:nth-child(3){
   padding: 3rem 18rem;
+}
+/* transportation Section */
+.transportationSect{
+  padding: 3rem;
+  background: #E5E5E5;
+}
+.transportationSect>div:nth-child(1) p{
+  color: #B90470;
+}
+.transportationSect>div:nth-child(1) h3{
+  font-size: 3rem;
+}
+.transportationContDiv{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.transportationDiv{
+  width: 305px;  
+  height: 450px;
+  text-align: center;
+  background: #FFFFFF;  
+}
+.transportationDiv h4{
+  color: #B90470;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.transportationContDiv>div:nth-child(1){
+  margin-top: 10em;
+}
+.transportationContDiv>div:nth-child(2){
+  margin-top: 7rem;
+}
+.transportationContDiv>div:nth-child(3){
+  margin-top: 4rem;
+}
+.reverseContDiv{
+  display: grid;
+  grid-template-columns: 630px repeat(3, 305px);
+  justify-items: flex-end;
+  gap: 28px;
+  padding: 0 3rem;
+  top: 0;
 }
