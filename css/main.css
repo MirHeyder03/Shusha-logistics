@@ -111,10 +111,7 @@ nav {
 }
 /*info section  */
 .infoSect{
-  color: black;
-
-  
-  
+  color: black; 
   background: #E5E5E5;
   text-align: center;
 }
@@ -153,7 +150,7 @@ nav {
 /* transportation Section */
 .transportationSect{
   padding: 3rem;
-  background: #E5E5E5;
+  background: #FFFFFF;
 }
 .transportationSect>div:nth-child(1) p{
   color: #B90470;
@@ -193,4 +190,127 @@ nav {
   gap: 28px;
   padding: 0 3rem;
   top: 0;
+}
+
+/* Mission Section */
+
+.missionSection{
+  background-color: #B90470;
+}
+.missionSection>div:nth-child(1){
+  color: #FFFFFF;
+  padding: 5rem 4rem 0 4rem;
+}
+.missionSection>div:nth-child(1) h4{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.missionContDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 2rem;
+
+}
+
+.missionDiv{
+  width: 27rem;
+  height: 28rem;
+  background: #FFFFFF;
+  padding: 3rem;
+  position: relative;
+}
+.missionDiv h5{
+  color: #B90470;
+  font-size: 1.25rem;
+}
+.missionDiv img{
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+}
+
+
+/* Team Section */
+.temaSection{
+  background: #FFFFFF;
+}
+.temaSection>div:nth-child(2){
+  text-align: center;
+}
+.temaContDiv{
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+}
+.temaContDiv>div:nth-child(1){
+  
+}
+.temaContDiv>div:nth-child(1) p{
+  color: #B90470;
+}
+.temaContDiv>div:nth-child(1) h5{
+  font-size: 3rem;
+}
+.temaContDiv>div:nth-child(2) {
+  padding-top: 3rem;
+  max-width: 34rem;
+  color: #343A3E;
+}
+/* Last section */
+.lastSection{
+  background-image: url("../images/Rectangle24.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 907px;
+  width: 100%;
+  position: relative;
+  /* padding-top: 9rem; */
+}
+.lastSectContDiv{
+  position: absolute;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 2rem;
+  font-size: 0.75rem;
+}
+.lastLinks ul li {
+  padding-bottom: .5rem;
+}
+.lastLinks ul li a{
+  color: #ffffff;
+  padding-bottom: 2.5rem;
+}
+.lastIcon{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+}
+.lastIcon i{
+  padding: 0.5rem;
+}
+
+.transparentPict {
+  width: 1381px;
+  overflow: hidden;
+ background: url("../images/Group75.png");
+ z-index: 4;
+ position: absolute;
+ bottom: 0;
+}
+
+footer{
+  /* height: 3rem; */
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #B90470;
+  font-size: 0.75rem;
+  width: 100%;
 }
