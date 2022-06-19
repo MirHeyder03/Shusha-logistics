@@ -21,7 +21,7 @@ header {
 }
 .infoP p {
   font-size: 0.75rem;
-  padding-right: 1.25rem;
+  padding-right: 2.75rem;
   color: #ffffff;
 }
 .iconsDiv i {
@@ -112,7 +112,7 @@ nav {
 /*info section  */
 .infoSect{
   color: black; 
-  background: #E5E5E5;
+  background: #FFFFFF;
   text-align: center;
 }
 .aboutPart{
