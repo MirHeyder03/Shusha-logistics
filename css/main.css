@@ -113,18 +113,18 @@ nav {
 .infoSect {
   color: black;
   background: #ffffff;
-  text-align: center;
 }
 .aboutPart {
   display: flex;
   justify-content: space-around;
 }
 .aboutPart > div {
-  padding-top: 8rem;
   padding-bottom: 5rem;
 }
 .aboutPart > div:nth-child(1) {
   text-align: start;
+  padding-top: 8rem;
+  margin-right: 15rem;
 }
 .aboutPart > div:nth-child(1) {
   color: #b90470;
@@ -132,6 +132,7 @@ nav {
 }
 .aboutPart > div:nth-child(2) {
   width: 549px;
+  padding-top: 10rem;
 }
 .aboutPart h3 {
   font-size: 3rem;
@@ -260,27 +261,33 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 907px;
+  height: 1000px;
   width: 100%;
   position: relative;
   /* padding-top: 9rem; */
+  color: #b90470;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 .lastSectContDiv {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 17rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #ffffff;
-  width: 100%;
-  padding: 2rem;
+  background: #ffffff;
+  width: 70rem;
+  padding: 4rem;
+  /* margin-left: 5rem; */
   font-size: 0.75rem;
 }
 .lastLinks ul li {
   padding-bottom: 0.5rem;
 }
 .lastLinks ul li a {
-  color: #ffffff;
+  color: #b90470;
   padding-bottom: 2.5rem;
 }
 .lastIcon {
@@ -290,15 +297,63 @@ nav {
 }
 .lastIcon i {
   padding: 0.5rem;
+  color: #b90470;
+}
+.contactInfo p {
+  padding-bottom: 0.75rem;
+}
+.shushaImg {
+  margin-bottom: 5rem;
+  padding-right: 5rem;
 }
 
 .transparentPict {
-  width: 1381px;
-  overflow: hidden;
   background: url("../images/Group75.png");
   z-index: 4;
   position: absolute;
-  bottom: 0;
+  bottom: -3rem;
+}
+/* Contact Us section */
+.contactUsSect {
+  display: flex;
+  justify-content: start;
+  padding: 8rem 5rem;
+}
+.contactUsSect > div {
+  max-width: 467px;
+}
+.contactUsSect > div p:nth-child(1) {
+  color: #b90470;
+  font-size: 00.75rem;
+}
+.contactUsSect > div p:nth-child(2) {
+  color: #343A3E;
+}
+.contactUsSect > div h5 {
+  color: #343a3e;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 650px;
+  max-height: 456px;
+  color: #000000;
+  margin-top: -270px;
+  margin-left: 600px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
+  padding: 5rem;
+  border-radius: 1px;
+}
+.frameDiv > div:nth-child(1) p {
+  padding: 0.75rem;
+}
+.frameDiv > div:nth-child(2) i {
+  padding: 2rem 0.75rem 0.75rem;
+  font-size: 1.25rem;
 }
 
 footer {
