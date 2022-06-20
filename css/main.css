@@ -159,21 +159,26 @@ nav {
 .transportationSect > div:nth-child(1) h3 {
   font-size: 3rem;
 }
-.transportationContDiv {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .transportationDiv {
   width: 305px;
   height: 450px;
-  text-align: center;
-  background: #ffffff;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
+}
+.transportationDiv>div:nth-child(2){
+  padding: 1rem;
+}
+.transportationDiv>div:nth-child(2) p{
+  font-size: 0.85rem;
 }
 .transportationDiv h4 {
   color: #b90470;
   font-size: 1.25rem;
   font-family: "Montserrat", sans-serif;
+}
+.transportationContDiv{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
 }
 .transportationContDiv > div:nth-child(1) {
   margin-top: 10em;
@@ -186,31 +191,44 @@ nav {
 }
 .reverseContDiv {
   display: grid;
-  grid-template-columns: 630px repeat(3, 305px);
+  grid-template-columns:  repeat(3, auto);
   justify-items: flex-end;
-  gap: 28px;
-  padding: 0 3rem;
-  top: 0;
+  padding: 0 5rem 0;
+  /* gap: 28px ;  */
 }
-
+.reverseSect{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
 /* Mission Section */
 
 .missionSection {
-  background-color: #b90470;
+  background:url("../images/Rectangle20.png") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1100px;
+  width: 100%;
+  padding-top: 20rem;
+  /* position: relative; */
 }
 .missionSection > div:nth-child(1) {
   color: #ffffff;
-  padding: 5rem 4rem 0 4rem;
+  padding: 0rem 5.5rem;
 }
 .missionSection > div:nth-child(1) h4 {
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
 }
+.missionSection > div:nth-child(1) p {
+  font-size: 0.75rem;
+}
 .missionContDiv {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5rem 2rem;
+  padding: 3rem 5rem;
 }
 
 .missionDiv {
@@ -218,6 +236,7 @@ nav {
   height: 28rem;
   background: #ffffff;
   padding: 3rem;
+  box-shadow: 0px 0px 15px #920A39;
   position: relative;
 }
 .missionDiv h5 {
@@ -327,7 +346,7 @@ nav {
   font-size: 00.75rem;
 }
 .contactUsSect > div p:nth-child(2) {
-  color: #343A3E;
+  color: #343a3e;
 }
 .contactUsSect > div h5 {
   color: #343a3e;
