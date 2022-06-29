@@ -1,0 +1,84 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 7.5px;
+        width: 100%;
+    }
+    header .infoP p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .sect1 nav{
+        padding:0 10rem 0;
+        left: 5rem;
+        right: 5rem;
+    }
+    .sect1 nav div>img{
+        width: 12rem;
+    }
+    .sect1 .navLinks {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    /* secondPart */
+    .secondPart p {
+        font-size: 1.25rem;
+    }
+    .secondPart button {
+        padding: 0.75rem 2.5rem 0.75rem 1.75rem;
+    }
+
+    .infoSect .aboutPart{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aboutPart > div:nth-child(1) {
+        padding-top: 8rem;
+        margin-right: 5rem;
+      }
+      .lorryImg{
+        width: 500px;
+        font-size: 5px;
+      }
+
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

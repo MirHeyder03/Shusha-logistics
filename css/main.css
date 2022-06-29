@@ -34,7 +34,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* height: 738px; */
   width: 100%;
   position: relative;
 }
@@ -46,7 +45,7 @@ nav {
   top: 2rem;
   left: 10rem;
   right: 10rem;
-  max-width: 1118px;
+  max-width: 69rem;
   max-height: 5rem;
   display: flex;
   justify-content: space-around;
@@ -131,7 +130,7 @@ nav {
   font-weight: 400px;
 }
 .aboutPart > div:nth-child(2) {
-  width: 549px;
+  width: 34.3rem;
   padding-top: 10rem;
 }
 .aboutPart h3 {
@@ -160,8 +159,8 @@ nav {
   font-size: 3rem;
 }
 .transportationDiv {
-  width: 305px;
-  height: 450px;
+  width: 19rem;
+  height: 28rem;
   background: #FFFFFF;
   box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
 }
@@ -223,7 +222,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1100px;
+  height: 68.75rem;
   width: 100%;
   padding-top: 30rem;
   /* position: relative; */
@@ -251,7 +250,7 @@ nav {
   height: 28rem;
   background: #ffffff;
   padding: 3rem;
-  box-shadow: 0px 0px 15px #920A39;
+  box-shadow: 0px 0px 1rem #920A39;
   position: relative;
 }
 .missionDiv h5 {
@@ -354,7 +353,7 @@ nav {
   padding: 8rem 5rem;
 }
 .contactUsSect > div {
-  max-width: 467px;
+  max-width: 29rem;
 }
 .contactUsSect > div p:nth-child(1) {
   color: #b90470;
@@ -372,11 +371,11 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 650px;
-  max-height: 456px;
+  max-width: 40rem;
+  max-height: 28.5rem;
   color: #000000;
-  margin-top: -270px;
-  margin-left: 600px;
+  margin-top: -16.8rem;
+  margin-left: 37.5rem;
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
   padding: 5rem;
