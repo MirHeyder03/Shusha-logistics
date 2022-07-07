@@ -38,11 +38,194 @@
         margin-right: 5rem;
       }
       .lorryImg{
-        width: 500px;
-        font-size: 5px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 3px;
+        text-align: center;
       }
 
+      .infoSect > div:nth-child(3) {
+        padding: 3rem 10rem;
+      }
+      /* transportation Section */
+.transportationSect {
+    padding: 3rem;
+    background: #ffffff;
+  }
+  .transportationSect > div:nth-child(1) p {
+    color: #b90470;
+  }
+  .transportationSect > div:nth-child(1) h3 {
+    font-size: 3rem;
+  }
+  .transportationDiv {
+    width: 19rem;
+    height: 28rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
+  }
+  .transportationDiv>div:nth-child(2){
+    padding: 1rem;
+  }
+  .transportationDiv>div:nth-child(2) p{
+    font-size: 0.55rem;
+  }
+  .transportationDiv h4 {
+    color: #b90470;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  .transportationContDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow: hidden;
+  }
+  .transportationContDiv > div:nth-child(1) {
+    margin-top: 10em;
+  }
+  .transportationContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .transportationContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    /* justify-items: flex-end; */
+    overflow: hidden;
+    /* padding: 0 5rem 0; */
+    /* margin-top: -200px; */
+    /* gap: 28px ;  */
+    /* padding: 0 3rem 0; */
+  }
+  .reverseContDiv>div:nth-child(1){
+    margin-top: 10rem;
+  }
+  .reverseContDiv>div:nth-child(2){
+    margin-top: 7rem;
+  }
+  .reverseContDiv>div:nth-child(3){
+    margin-top: 4rem;
+  }
+  .reverseContDiv>div:nth-child(4){
+    margin-top: 0.75rem;
+  }
+  .reverseSect{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Team Section */
+  .temaSection > div:nth-child(2) {
+    text-align: center;
+    /* width: 400px; */
+    width: 100%;
+  }
+  .temaContDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+  }
+  .temaContDiv > div:nth-child(1) {
+  }
+  .temaContDiv > div:nth-child(1) p {
+    color: #b90470;
+  }
+  .temaContDiv > div:nth-child(1) h5 {
+    font-size: 3rem;
+  }
+  .temaContDiv > div:nth-child(2) {
+    padding-top: 3rem;
+    max-width: 34rem;
+    color: #343a3e;
+  }
+/* Last section */
+.lastSection {
+    height: 62.5rem;
+  }
+  .lastSectContDiv {
+    position: absolute;
+    margin-top: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    padding: 4rem;
+    /* margin-left: 5rem; */
+    font-size: 0.75rem;
+  }
+  .lastLinks ul li {
+    padding-bottom: 0.5rem;
+  }
+  .lastLinks ul li a {
+    color: #b90470;
+    padding-bottom: 2.5rem;
+  }
+  .lastIcon {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+  }
+  .lastIcon i {
+    padding: 0.5rem;
+    color: #b90470;
+  }
+  .contactInfo p {
+    padding-bottom: 0.75rem;
+  }
+  .shushaImg {
+    margin-bottom: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .transparentPict {
+    bottom: -3rem;
+  }
+
+
+
+  /* Contact Us section */
+.contactUsSect {
+    padding: 8rem 4rem;
+  }
+  .contactUsSect > div {
+    max-width: 17rem;
+  }
+  .frameDiv {
+    max-width: 30rem;
+    max-height: 23.5rem;
+    margin-top: -19.8rem;
+    margin-left: 29.5rem;
+  }
+
+
+
+
+
+
+
+
+
+  footer {
+    font-size: 1rem;
+  }
+  
 }
 
 
