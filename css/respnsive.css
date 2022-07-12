@@ -37,11 +37,8 @@
         padding-top: 8rem;
         margin-right: 5rem;
       }
-      .lorryImg{
-        display: block;
-      }
-      .lorryImg{
-        width: 600px;
+
+      .lorryImg img{
         margin: 0 auto;
         width: 100%;
       }
@@ -55,6 +52,9 @@
   .transportationDiv>div:nth-child(2) p{
     font-size: 0.55rem;
   }
+  .transparentPict img{
+    width: 100%;
+  } 
 
   .transportationContDiv{
     display: grid;
@@ -117,7 +117,7 @@
 }
 
   /* Team Section */
-  .temaSection > div:nth-child(2) {
+  .temaSection > div:nth-child(2) img {
     /* width: 400px; */
     width: 100%;
   }
@@ -190,7 +190,7 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:768px) {
   html{
     font-size: 10px;
     width: 100%;
@@ -231,9 +231,7 @@ header .infoP p{
   .lorryImg{
     display: block;
   }
-  .lorryImg{
-    width: 600px;
-    margin: 0 auto;
+  .lorryImg img{
     width: 100%;
   }
 
@@ -259,6 +257,7 @@ box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
 }
 .transportationDiv>div:nth-child(2){
 padding: 1rem;
+
 }
 .transportationDiv>div:nth-child(2) p{
 font-size: 0.55rem;
@@ -281,6 +280,9 @@ margin-top: 7rem;
 }
 .transportationContDiv > div:nth-child(3) {
 margin-top: 4rem;
+}
+.transparentPict img{
+  width: 100%;
 }
 .reverseContDiv {
 display: grid;
@@ -337,9 +339,7 @@ height: 4rem;
 
 
 /* Team Section */
-.temaSection > div:nth-child(2) {
-text-align: center;
-/* width: 400px; */
+.temaSection > div:nth-child(2) img {
 width: 100%;
 }
 .temaContDiv {
@@ -400,9 +400,6 @@ margin-bottom: 5rem;
 padding-right: 5rem;
 }
 
-.transparentPict {
-bottom: -2;
-}
 
 
 
@@ -436,13 +433,8 @@ font-size: 1rem;
 
 
 
-
-
-
-
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:992px) {
   html{
     font-size: 11px;
     width: 100%;
@@ -483,9 +475,7 @@ header .infoP p{
   .lorryImg{
     display: block;
   }
-  .lorryImg{
-    width: 600px;
-    margin: 0 auto;
+  .lorryImg img{
     width: 100%;
   }
 
@@ -512,6 +502,9 @@ margin-top: 7rem;
 }
 .transportationContDiv > div:nth-child(3) {
 margin-top: 4rem;
+}
+.transparentPict img{
+  width: 100%;
 }
 .reverseContDiv {
 display: grid;
@@ -636,7 +629,7 @@ font-size: 1rem;
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width:1200px) {
   html{
     font-size: 13px;
     width: 100%;
@@ -674,15 +667,9 @@ header .infoP p{
     padding-top: 8rem;
     margin-right: 5rem;
   }
-  .lorryImg{
-    display: block;
-  }
-  .lorryImg{
-    width: 600px;
-    margin: 0 auto;
+  .lorryImg img{
     width: 100%;
   }
-
   .infoSect > div:nth-child(3) {
     padding: 2rem 10rem;
   }
@@ -828,7 +815,7 @@ font-size: 1rem;
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width:1250px){
 
   html{
     font-size: 16px;
@@ -867,12 +854,9 @@ header .infoP p{
     padding-top: 8rem;
     margin-right: 5rem;
   }
-  .lorryImg{
-    display: block;
-  }
-  .lorryImg{
-    width: 600px;
-    margin: 0 auto;
+
+  .lorryImg img{
+
     width: 100%;
   }
 
