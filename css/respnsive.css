@@ -187,83 +187,40 @@
   .lorryImg img {
     width: 100%;
   }
-
   .infoSect > div:nth-child(3) {
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationSect {
-    padding: 2;
-    background: #ffffff;
+  .transportationContDiv{
+    width: 100%;
+    display: flex;
+    gap: 5px;
   }
-  .transportationSect > div:nth-child(1) p {
-    color: #b90470;
+  .transportationDiv{
+    height: 22rem;
   }
-  .transportationSect > div:nth-child(1) h3 {
-    font-size: 2;
-  }
-  .transportationDiv {
-    width: 19rem;
-    height: 28rem;
-    background: #ffffff;
-    box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
-  }
-  .transportationDiv > div:nth-child(2) {
-    padding: 1rem;
-  }
-  .transportationDiv > div:nth-child(2) p {
-    font-size: 0.55rem;
-  }
-  .transportationDiv h4 {
-    color: #b90470;
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-  }
-  .transportationContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    overflow: hidden;
-  }
-  .transportationContDiv > div:nth-child(1) {
-    margin-top: 10em;
-  }
-  .transportationContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .transportationContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
+ .transportationDiv>div:nth-child(1) img{
+    width: 13.5rem; 
+ }
+ .transportationDiv>div:nth-child(2) h4{
+    font-size: 1rem;
+ }
+ .transportationDiv>div:nth-child(2) p{
+  font-size: 0.65rem;
+ }
+ .reverseSect{
+  width: 100%;
+  display: flex;
+  margin-top:7.5rem ;
+ }
+ .reverseContDiv{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+ }
   .transparentPict img {
     width: 100%;
   }
-  .reverseContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* justify-items: flex-end; */
-    overflow: hidden;
-    /* padding: 0 5rem 0; */
-    /* margin-top: -200px; */
-    /* gap: 28px ;  */
-    /* padding: 0 2 0; */
-  }
-  .reverseContDiv > div:nth-child(1) {
-    margin-top: 10rem;
-  }
-  .reverseContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .reverseContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
-  .reverseContDiv > div:nth-child(4) {
-    margin-top: 0.75rem;
-  }
-  .reverseSect {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-  }
-
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
     font-size: 1rem;
@@ -408,56 +365,38 @@
   }
 
   /* transportation Section */
+  .transportationContDiv{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+  }
+  .transportationDiv{
+    height: 24rem;
+  }
+ .transportationDiv>div:nth-child(1) img{
+    width: 15.5rem; 
+ }
+ .transportationDiv>div:nth-child(2) h4{
+    font-size: 1.25rem;
+ }
+ .transportationDiv>div:nth-child(2) p{
+  font-size: 0.75rem;
+ }
 
-  .transportationDiv > div:nth-child(2) p {
-    font-size: 0.55rem;
-  }
+ .reverseSect{
+  width: 100%;
+  display: flex;
+  margin-top:7.5rem ;
+ }
+ .reverseContDiv{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+ }
 
-  .transportationContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    overflow: hidden;
-  }
-  .transportationContDiv > div:nth-child(1) {
-    margin-top: 10em;
-  }
-  .transportationContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .transportationContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
   .transparentPict img {
     width: 100%;
   }
-  .reverseContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* justify-items: flex-end; */
-    overflow: hidden;
-    /* padding: 0 5rem 0; */
-    /* margin-top: -200px; */
-    /* gap: 28px ;  */
-    /* padding: 0 2 0; */
-  }
-  .reverseContDiv > div:nth-child(1) {
-    margin-top: 10rem;
-  }
-  .reverseContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .reverseContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
-  .reverseContDiv > div:nth-child(4) {
-    margin-top: 0.75rem;
-  }
-  .reverseSect {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-  }
-
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
     font-size: 1rem;
@@ -474,7 +413,7 @@
   }
 
   /* Team Section */
-  .temaSection > div:nth-child(2) {
+  .temaSection > div:nth-child(2) img{
     /* width: 400px; */
     width: 100%;
   }
@@ -585,52 +524,35 @@
   }
 
   /* transportation Section */
-
-  .transportationDiv > div:nth-child(2) p {
-    font-size: 0.55rem;
-  }
-
-  .transportationContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    overflow: hidden;
-  }
-  .transportationContDiv > div:nth-child(1) {
-    margin-top: 10em;
-  }
-  .transportationContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .transportationContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
-  .reverseContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* justify-items: flex-end; */
-    overflow: hidden;
-    /* padding: 0 5rem 0; */
-    /* margin-top: -200px; */
-    /* gap: 28px ;  */
-    /* padding: 0 2 0; */
-  }
-  .reverseContDiv > div:nth-child(1) {
-    margin-top: 10rem;
-  }
-  .reverseContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .reverseContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
-  .reverseContDiv > div:nth-child(4) {
-    margin-top: 0.75rem;
-  }
-  .reverseSect {
-    position: absolute;
+  .transportationContDiv{
     width: 100%;
-    z-index: 1;
+    display: flex;
+    gap: 5px;
   }
+  .transportationDiv{
+    height: 24rem;
+  }
+ .transportationDiv>div:nth-child(1) img{
+    width: 15.5rem; 
+ }
+ .transportationDiv>div:nth-child(2) h4{
+    font-size: 1.25rem;
+ }
+ .transportationDiv>div:nth-child(2) p{
+  font-size: 0.75rem;
+ }
+
+ .reverseSect{
+  width: 100%;
+  display: flex;
+  margin-top:7.5rem ;
+ }
+ .reverseContDiv{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+ }
+ 
 
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
@@ -646,20 +568,19 @@
   .missionDiv img {
     height: 4rem;
   }
-
+.lorryImg img{
+  width: 100%;
+}
   /* Team Section */
-  .temaSection > div:nth-child(2) {
-    /* width: 400px; */
+ .temaSection > div:nth-child(2) {
     width: 100%;
   }
+
   .temaContDiv {
     display: flex;
     justify-content: space-around;
     padding: 4rem 2rem;
   }
-  .temaContDiv > div:nth-child(1) {
-  }
-
   .temaContDiv > div:nth-child(1) h5 {
     font-size: 2;
   }
@@ -712,7 +633,7 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
   html {
     font-size: 16px;
     width: 100%;
@@ -755,50 +676,34 @@
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationDiv > div:nth-child(2) p {
-    font-size: 0.55rem;
-  }
-  .transportationContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    overflow: hidden;
-  }
-  .transportationContDiv > div:nth-child(1) {
-    margin-top: 10em;
-  }
-  .transportationContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .transportationContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
-  .reverseContDiv {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* justify-items: flex-end; */
-    overflow: hidden;
-    /* padding: 0 5rem 0; */
-    /* margin-top: -200px; */
-    /* gap: 28px ;  */
-    /* padding: 0 2 0; */
-  }
-  .reverseContDiv > div:nth-child(1) {
-    margin-top: 10rem;
-  }
-  .reverseContDiv > div:nth-child(2) {
-    margin-top: 7rem;
-  }
-  .reverseContDiv > div:nth-child(3) {
-    margin-top: 4rem;
-  }
-  .reverseContDiv > div:nth-child(4) {
-    margin-top: 0.75rem;
-  }
-  .reverseSect {
-    position: absolute;
+  .transportationContDiv{
     width: 100%;
-    z-index: 1;
+    display: flex;
+    gap: 5px;
   }
+  .transportationDiv{
+    height: 24rem;
+  }
+ .transportationDiv>div:nth-child(1) img{
+    width: 15.5rem; 
+ }
+ .transportationDiv>div:nth-child(2) h4{
+    font-size: 1.25rem;
+ }
+ .transportationDiv>div:nth-child(2) p{
+  font-size: 0.75rem;
+ }
+
+ .reverseSect{
+  width: 100%;
+  display: flex;
+  margin-top:0.5rem ;
+ }
+ .reverseContDiv{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+ }
 
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
@@ -815,7 +720,7 @@
     height: 4rem;
   }
   /* Team Section */
-  .temaSection > div:nth-child(2) {
+  .temaSection > div:nth-child(2) img {
     width: 100%;
   }
   .temaContDiv {
