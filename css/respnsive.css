@@ -1,64 +1,64 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    html{
-        font-size: 7.5px;
-        width: 100%;
-    }
-    header .infoP p{
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    .sect1 nav{
-        padding:0 10rem 0;
-        left: 5rem;
-        right: 5rem;
-    }
-    .sect1 nav div>img{
-        width: 12rem;
-    }
-    .sect1 .navLinks {
-        width: 100%;
-        padding: 2rem;
-    }
+  html {
+    font-size: 7.5px;
+    width: 100%;
+  }
+  header .infoP p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .sect1 nav {
+    padding: 0 10rem 0;
+    left: 5rem;
+    right: 5rem;
+  }
+  .sect1 nav div > img {
+    width: 12rem;
+  }
+  .sect1 .navLinks {
+    width: 100%;
+    padding: 2rem;
+  }
 
-    /* secondPart */
-    .secondPart p {
-        font-size: 1.25rem;
-    }
-    .secondPart button {
-        padding: 0.75rem 2.5rem 0.75rem 1.75rem;
-    }
+  /* secondPart */
+  .secondPart p {
+    font-size: 1.25rem;
+  }
+  .secondPart button {
+    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
+  }
 
-    .infoSect .aboutPart{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .aboutPart > div:nth-child(1) {
-        padding-top: 8rem;
-        margin-right: 5rem;
-      }
+  .infoSect .aboutPart {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .aboutPart > div:nth-child(1) {
+    padding-top: 8rem;
+    margin-right: 5rem;
+  }
 
-      .lorryImg img{
-        margin: 0 auto;
-        width: 100%;
-      }
+  .lorryImg img {
+    margin: 0 auto;
+    width: 100%;
+  }
 
-      .infoSect > div:nth-child(3) {
-        padding: 2rem 10rem;
-      }
+  .infoSect > div:nth-child(3) {
+    padding: 2rem 10rem;
+  }
 
-      /* transportation Section */
+  /* transportation Section */
 
-  .transportationDiv>div:nth-child(2) p{
+  .transportationDiv > div:nth-child(2) p {
     font-size: 0.55rem;
   }
-  .transparentPict img{
+  .transparentPict img {
     width: 100%;
-  } 
+  }
 
-  .transportationContDiv{
+  .transportationContDiv {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     overflow: hidden;
   }
   .transportationContDiv > div:nth-child(1) {
@@ -72,7 +72,7 @@
   }
   .reverseContDiv {
     display: grid;
-    grid-template-columns:  repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* justify-items: flex-end; */
     overflow: hidden;
     /* padding: 0 5rem 0; */
@@ -80,41 +80,37 @@
     /* gap: 28px ;  */
     /* padding: 0 2 0; */
   }
-  .reverseContDiv>div:nth-child(1){
+  .reverseContDiv > div:nth-child(1) {
     margin-top: 10rem;
   }
-  .reverseContDiv>div:nth-child(2){
+  .reverseContDiv > div:nth-child(2) {
     margin-top: 7rem;
   }
-  .reverseContDiv>div:nth-child(3){
+  .reverseContDiv > div:nth-child(3) {
     margin-top: 4rem;
   }
-  .reverseContDiv>div:nth-child(4){
+  .reverseContDiv > div:nth-child(4) {
     margin-top: 0.75rem;
   }
-  .reverseSect{
+  .reverseSect {
     position: absolute;
     width: 100%;
     z-index: 1;
   }
-
-
-
-
-/* Mission Section */
-.missionSection > div:nth-child(1) p {
-  font-size: 1rem;
-}
-.missionContDiv {
-  padding: 2rem;
-  gap: 10px;
-}
-.missionDiv {
-  padding: 2rem;
-}
-.missionDiv img {
-  height: 4rem;
-}
+  /* Mission Section */
+  .missionSection > div:nth-child(1) p {
+    font-size: 1rem;
+  }
+  .missionContDiv {
+    padding: 2rem;
+    gap: 10px;
+  }
+  .missionDiv {
+    padding: 2rem;
+  }
+  .missionDiv img {
+    height: 4rem;
+  }
 
   /* Team Section */
   .temaSection > div:nth-child(2) img {
@@ -137,8 +133,192 @@
     max-width: 34rem;
     color: #343a3e;
   }
-/* Last section */
-.lastSection {
+  /* Last section */
+  .lastSection {
+    height: 62.5rem;
+  }
+  .lastSectContDiv {
+    width: 100%;
+  }
+  /* Contact Us section */
+  .contactUsSect {
+    padding: 8rem 4rem;
+  }
+  .contactUsSect > div {
+    max-width: 17rem;
+  }
+  .frameDiv {
+    max-width: 30rem;
+    max-height: 23.5rem;
+    margin-top: -19.8rem;
+    margin-left: 29.5rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  html {
+    font-size: 10px;
+    width: 100%;
+  }
+  header .infoP p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .sect1 nav {
+    padding: 0 10rem 0;
+    left: 2rem;
+    right: 2rem;
+  }
+  .sect1 nav div > img {
+    width: 12rem;
+  }
+  .sect1 .navLinks {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  /* secondPart */
+  .secondPart p {
+    font-size: 1.25rem;
+  }
+  .secondPart button {
+    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
+  }
+
+  .infoSect .aboutPart {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .aboutPart > div:nth-child(1) {
+    padding-top: 8rem;
+    margin-right: 5rem;
+  }
+  .lorryImg {
+    display: block;
+  }
+  .lorryImg img {
+    width: 100%;
+  }
+
+  .infoSect > div:nth-child(3) {
+    padding: 2rem 10rem;
+  }
+  /* transportation Section */
+  .transportationSect {
+    padding: 2;
+    background: #ffffff;
+  }
+  .transportationSect > div:nth-child(1) p {
+    color: #b90470;
+  }
+  .transportationSect > div:nth-child(1) h3 {
+    font-size: 2;
+  }
+  .transportationDiv {
+    width: 19rem;
+    height: 28rem;
+    background: #ffffff;
+    box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
+  }
+  .transportationDiv > div:nth-child(2) {
+    padding: 1rem;
+  }
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.55rem;
+  }
+  .transportationDiv h4 {
+    color: #b90470;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  .transportationContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .transportationContDiv > div:nth-child(1) {
+    margin-top: 10em;
+  }
+  .transportationContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .transportationContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .transparentPict img {
+    width: 100%;
+  }
+  .reverseContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-items: flex-end; */
+    overflow: hidden;
+    /* padding: 0 5rem 0; */
+    /* margin-top: -200px; */
+    /* gap: 28px ;  */
+    /* padding: 0 2 0; */
+  }
+  .reverseContDiv > div:nth-child(1) {
+    margin-top: 10rem;
+  }
+  .reverseContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .reverseContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv > div:nth-child(4) {
+    margin-top: 0.75rem;
+  }
+  .reverseSect {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Mission Section */
+  .missionSection > div:nth-child(1) p {
+    font-size: 1rem;
+  }
+  .missionContDiv {
+    padding: 2rem;
+    gap: 10px;
+  }
+  .missionDiv {
+    padding: 2rem;
+  }
+  .missionDiv img {
+    height: 4rem;
+  }
+
+  /* Team Section */
+  .temaSection > div:nth-child(2) img {
+    width: 100%;
+  }
+  .temaContDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+  }
+  .temaContDiv > div:nth-child(1) {
+  }
+  .temaContDiv > div:nth-child(1) p {
+    color: #b90470;
+  }
+  .temaContDiv > div:nth-child(1) h5 {
+    font-size: 2;
+  }
+  .temaContDiv > div:nth-child(2) {
+    padding-top: 2;
+    max-width: 34rem;
+    color: #343a3e;
+  }
+  /* Last section */
+  .lastSection {
     height: 62.5rem;
   }
   .lastSectContDiv {
@@ -156,20 +336,208 @@
   .lastLinks ul li {
     padding-bottom: 0.5rem;
   }
-  .lastLinks ul li a {
-    color: #b90470;
-    padding-bottom: 2.5rem;
+
+  .lastIcon {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
   }
+  .lastIcon i {
+    padding: 0.5rem;
+    color: #b90470;
+  }
+  .contactInfo p {
+    padding-bottom: 0.75rem;
+  }
+  .shushaImg {
+    margin-bottom: 5rem;
+    padding-right: 5rem;
+  }
+
+  /* Contact Us section */
+  .contactUsSect {
+    padding: 8rem 4rem;
+  }
+  .contactUsSect > div {
+    max-width: 17rem;
+  }
+  .frameDiv {
+    max-width: 30rem;
+    max-height: 23.5rem;
+    margin-top: -19.8rem;
+    margin-left: 29.5rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 11px;
+    width: 100%;
+  }
+  header .infoP p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .sect1 nav {
+    padding: 0 10rem 0;
+    left: 5rem;
+    right: 5rem;
+  }
+  .sect1 nav div > img {
+    width: 12rem;
+  }
+  .sect1 .navLinks {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  /* secondPart */
+  .secondPart p {
+    font-size: 1.25rem;
+  }
+  .secondPart button {
+    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
+  }
+
+  .infoSect .aboutPart {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .aboutPart > div:nth-child(1) {
+    padding-top: 8rem;
+    margin-right: 5rem;
+  }
+  .lorryImg {
+    display: block;
+  }
+  .lorryImg img {
+    width: 100%;
+  }
+
+  .infoSect > div:nth-child(3) {
+    padding: 2rem 10rem;
+  }
+
+  /* transportation Section */
+
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.55rem;
+  }
+
+  .transportationContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .transportationContDiv > div:nth-child(1) {
+    margin-top: 10em;
+  }
+  .transportationContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .transportationContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .transparentPict img {
+    width: 100%;
+  }
+  .reverseContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-items: flex-end; */
+    overflow: hidden;
+    /* padding: 0 5rem 0; */
+    /* margin-top: -200px; */
+    /* gap: 28px ;  */
+    /* padding: 0 2 0; */
+  }
+  .reverseContDiv > div:nth-child(1) {
+    margin-top: 10rem;
+  }
+  .reverseContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .reverseContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv > div:nth-child(4) {
+    margin-top: 0.75rem;
+  }
+  .reverseSect {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Mission Section */
+  .missionSection > div:nth-child(1) p {
+    font-size: 1rem;
+  }
+  .missionContDiv {
+    padding: 2rem;
+    gap: 10px;
+  }
+  .missionDiv {
+    padding: 2rem;
+  }
+  .missionDiv img {
+    height: 4rem;
+  }
+
+  /* Team Section */
+  .temaSection > div:nth-child(2) {
+    /* width: 400px; */
+    width: 100%;
+  }
+  .temaContDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+  }
+  .temaContDiv > div:nth-child(1) {
+  }
+
+  .temaContDiv > div:nth-child(1) h5 {
+    font-size: 2;
+  }
+  .temaContDiv > div:nth-child(2) {
+    padding-top: 2;
+    max-width: 34rem;
+    color: #343a3e;
+  }
+  /* Last section */
+  .lastSection {
+    height: 62.5rem;
+  }
+  .lastSectContDiv {
+    position: absolute;
+    margin-top: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    padding: 4rem;
+    /* margin-left: 5rem; */
+    font-size: 0.75rem;
+  }
+  .lastLinks ul li {
+    padding-bottom: 0.5rem;
+  }
+
   .lastIcon {
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
   }
 
-
-
   /* Contact Us section */
-.contactUsSect {
+  .contactUsSect {
     padding: 8rem 4rem;
   }
   .contactUsSect > div {
@@ -186,488 +554,46 @@
   }
 }
 
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width:768px) {
-  html{
-    font-size: 10px;
-    width: 100%;
-}
-header .infoP p{
-    font-size: 1rem;
-    font-weight: 400;
-}
-.sect1 nav{
-    padding:0 10rem 0;
-    left: 2rem;
-    right: 2rem;
-}
-.sect1 nav div>img{
-    width: 12rem;
-}
-.sect1 .navLinks {
-    width: 100%;
-    padding: 2rem;
-}
-
-/* secondPart */
-.secondPart p {
-    font-size: 1.25rem;
-}
-.secondPart button {
-    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
-}
-
-.infoSect .aboutPart{
-    display: flex;
-    justify-content: space-evenly;
-}
-.aboutPart > div:nth-child(1) {
-    padding-top: 8rem;
-    margin-right: 5rem;
-  }
-  .lorryImg{
-    display: block;
-  }
-  .lorryImg img{
-    width: 100%;
-  }
-
-  .infoSect > div:nth-child(3) {
-    padding: 2rem 10rem;
-  }
-  /* transportation Section */
-.transportationSect {
-padding: 2;
-background: #ffffff;
-}
-.transportationSect > div:nth-child(1) p {
-color: #b90470;
-}
-.transportationSect > div:nth-child(1) h3 {
-font-size: 2;
-}
-.transportationDiv {
-width: 19rem;
-height: 28rem;
-background: #FFFFFF;
-box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
-}
-.transportationDiv>div:nth-child(2){
-padding: 1rem;
-
-}
-.transportationDiv>div:nth-child(2) p{
-font-size: 0.55rem;
-}
-.transportationDiv h4 {
-color: #b90470;
-font-size: 1.25rem;
-font-family: "Montserrat", sans-serif;
-}
-.transportationContDiv{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-overflow: hidden;
-}
-.transportationContDiv > div:nth-child(1) {
-margin-top: 10em;
-}
-.transportationContDiv > div:nth-child(2) {
-margin-top: 7rem;
-}
-.transportationContDiv > div:nth-child(3) {
-margin-top: 4rem;
-}
-.transparentPict img{
-  width: 100%;
-}
-.reverseContDiv {
-display: grid;
-grid-template-columns:  repeat(4, 1fr);
-/* justify-items: flex-end; */
-overflow: hidden;
-/* padding: 0 5rem 0; */
-/* margin-top: -200px; */
-/* gap: 28px ;  */
-/* padding: 0 2 0; */
-}
-.reverseContDiv>div:nth-child(1){
-margin-top: 10rem;
-}
-.reverseContDiv>div:nth-child(2){
-margin-top: 7rem;
-}
-.reverseContDiv>div:nth-child(3){
-margin-top: 4rem;
-}
-.reverseContDiv>div:nth-child(4){
-margin-top: 0.75rem;
-}
-.reverseSect{
-position: absolute;
-width: 100%;
-z-index: 1;
-}
-
-
-
-
-/* Mission Section */
-.missionSection > div:nth-child(1) p {
-font-size: 1rem;
-}
-.missionContDiv {
-padding: 2rem;
-gap: 10px;
-}
-.missionDiv {
-padding: 2rem;
-}
-.missionDiv img {
-height: 4rem;
-}
-
-
-
-
-
-
-
-
-
-/* Team Section */
-.temaSection > div:nth-child(2) img {
-width: 100%;
-}
-.temaContDiv {
-display: flex;
-justify-content: space-around;
-padding: 4rem 2rem;
-}
-.temaContDiv > div:nth-child(1) {
-}
-.temaContDiv > div:nth-child(1) p {
-color: #b90470;
-}
-.temaContDiv > div:nth-child(1) h5 {
-font-size: 2;
-}
-.temaContDiv > div:nth-child(2) {
-padding-top: 2;
-max-width: 34rem;
-color: #343a3e;
-}
-/* Last section */
-.lastSection {
-height: 62.5rem;
-}
-.lastSectContDiv {
-position: absolute;
-margin-top: 17rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: #ffffff;
-width: 100%;
-padding: 4rem;
-/* margin-left: 5rem; */
-font-size: 0.75rem;
-}
-.lastLinks ul li {
-padding-bottom: 0.5rem;
-}
-.lastLinks ul li a {
-color: #b90470;
-padding-bottom: 2.5rem;
-}
-.lastIcon {
-display: flex;
-flex-direction: column;
-font-size: 1.25rem;
-}
-.lastIcon i {
-padding: 0.5rem;
-color: #b90470;
-}
-.contactInfo p {
-padding-bottom: 0.75rem;
-}
-.shushaImg {
-margin-bottom: 5rem;
-padding-right: 5rem;
-}
-
-
-
-
-/* Contact Us section */
-.contactUsSect {
-padding: 8rem 4rem;
-}
-.contactUsSect > div {
-max-width: 17rem;
-}
-.frameDiv {
-max-width: 30rem;
-max-height: 23.5rem;
-margin-top: -19.8rem;
-margin-left: 29.5rem;
-}
-
-
-
-
-
-
-
-
-
-footer {
-font-size: 1rem;
-}
-
-}
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width:992px) {
-  html{
-    font-size: 11px;
-    width: 100%;
-}
-header .infoP p{
-    font-size: 1rem;
-    font-weight: 400;
-}
-.sect1 nav{
-    padding:0 10rem 0;
-    left: 5rem;
-    right: 5rem;
-}
-.sect1 nav div>img{
-    width: 12rem;
-}
-.sect1 .navLinks {
-    width: 100%;
-    padding: 2rem;
-}
-
-/* secondPart */
-.secondPart p {
-    font-size: 1.25rem;
-}
-.secondPart button {
-    padding: 0.75rem 2.5rem 0.75rem 1.75rem;
-}
-
-.infoSect .aboutPart{
-    display: flex;
-    justify-content: space-evenly;
-}
-.aboutPart > div:nth-child(1) {
-    padding-top: 8rem;
-    margin-right: 5rem;
-  }
-  .lorryImg{
-    display: block;
-  }
-  .lorryImg img{
-    width: 100%;
-  }
-
-  .infoSect > div:nth-child(3) {
-    padding: 2rem 10rem;
-  }
-
-  /* transportation Section */
-
-.transportationDiv>div:nth-child(2) p{
-font-size: 0.55rem;
-}
-
-.transportationContDiv{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-overflow: hidden;
-}
-.transportationContDiv > div:nth-child(1) {
-margin-top: 10em;
-}
-.transportationContDiv > div:nth-child(2) {
-margin-top: 7rem;
-}
-.transportationContDiv > div:nth-child(3) {
-margin-top: 4rem;
-}
-.transparentPict img{
-  width: 100%;
-}
-.reverseContDiv {
-display: grid;
-grid-template-columns:  repeat(4, 1fr);
-/* justify-items: flex-end; */
-overflow: hidden;
-/* padding: 0 5rem 0; */
-/* margin-top: -200px; */
-/* gap: 28px ;  */
-/* padding: 0 2 0; */
-}
-.reverseContDiv>div:nth-child(1){
-margin-top: 10rem;
-}
-.reverseContDiv>div:nth-child(2){
-margin-top: 7rem;
-}
-.reverseContDiv>div:nth-child(3){
-margin-top: 4rem;
-}
-.reverseContDiv>div:nth-child(4){
-margin-top: 0.75rem;
-}
-.reverseSect{
-position: absolute;
-width: 100%;
-z-index: 1;
-}
-
-
-
-
-/* Mission Section */
-.missionSection > div:nth-child(1) p {
-font-size: 1rem;
-}
-.missionContDiv {
-padding: 2rem;
-gap: 10px;
-}
-.missionDiv {
-padding: 2rem;
-}
-.missionDiv img {
-height: 4rem;
-}
-
-/* Team Section */
-.temaSection > div:nth-child(2) {
-/* width: 400px; */
-width: 100%;
-}
-.temaContDiv {
-display: flex;
-justify-content: space-around;
-padding: 4rem 2rem;
-}
-.temaContDiv > div:nth-child(1) {
-}
-
-.temaContDiv > div:nth-child(1) h5 {
-font-size: 2;
-}
-.temaContDiv > div:nth-child(2) {
-padding-top: 2;
-max-width: 34rem;
-color: #343a3e;
-}
-/* Last section */
-.lastSection {
-height: 62.5rem;
-}
-.lastSectContDiv {
-position: absolute;
-margin-top: 17rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: #ffffff;
-width: 100%;
-padding: 4rem;
-/* margin-left: 5rem; */
-font-size: 0.75rem;
-}
-.lastLinks ul li {
-padding-bottom: 0.5rem;
-}
-.lastLinks ul li a {
-color: #b90470;
-padding-bottom: 2.5rem;
-}
-.lastIcon {
-display: flex;
-flex-direction: column;
-font-size: 1.25rem;
-}
-
-
-
-/* Contact Us section */
-.contactUsSect {
-padding: 8rem 4rem;
-}
-.contactUsSect > div {
-max-width: 17rem;
-}
-.frameDiv {
-max-width: 30rem;
-max-height: 23.5rem;
-margin-top: -19.8rem;
-margin-left: 29.5rem;
-}
-footer {
-font-size: 1rem;
-}
-
-
-}
-
-
-
-
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width:1200px) {
-  html{
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
     font-size: 13px;
     width: 100%;
-}
-header .infoP p{
+  }
+  header .infoP p {
     font-size: 1rem;
     font-weight: 400;
-}
-.sect1 nav{
-    padding:0 10rem 0;
+  }
+  .sect1 nav {
+    padding: 0 10rem 0;
     left: 7rem;
     right: 7rem;
-}
-.sect1 nav div>img{
+  }
+  .sect1 nav div > img {
     width: 12rem;
-}
-.sect1 .navLinks {
+  }
+  .sect1 .navLinks {
     width: 100%;
     padding: 2rem;
-}
+  }
 
-/* secondPart */
-.secondPart p {
+  /* secondPart */
+  .secondPart p {
     font-size: 1.25rem;
-}
-.secondPart button {
+  }
+  .secondPart button {
     padding: 0.75rem 2.5rem 0.75rem 1.75rem;
-}
+  }
 
-.infoSect .aboutPart{
+  .infoSect .aboutPart {
     display: flex;
     justify-content: space-evenly;
-}
-.aboutPart > div:nth-child(1) {
+  }
+  .aboutPart > div:nth-child(1) {
     padding-top: 8rem;
     margin-right: 5rem;
   }
-  .lorryImg img{
+  .lorryImg img {
     width: 100%;
   }
   .infoSect > div:nth-child(3) {
@@ -676,327 +602,281 @@ header .infoP p{
 
   /* transportation Section */
 
-.transportationDiv>div:nth-child(2) p{
-font-size: 0.55rem;
-}
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.55rem;
+  }
 
-.transportationContDiv{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-overflow: hidden;
-}
-.transportationContDiv > div:nth-child(1) {
-margin-top: 10em;
-}
-.transportationContDiv > div:nth-child(2) {
-margin-top: 7rem;
-}
-.transportationContDiv > div:nth-child(3) {
-margin-top: 4rem;
-}
-.reverseContDiv {
-display: grid;
-grid-template-columns:  repeat(4, 1fr);
-/* justify-items: flex-end; */
-overflow: hidden;
-/* padding: 0 5rem 0; */
-/* margin-top: -200px; */
-/* gap: 28px ;  */
-/* padding: 0 2 0; */
-}
-.reverseContDiv>div:nth-child(1){
-margin-top: 10rem;
-}
-.reverseContDiv>div:nth-child(2){
-margin-top: 7rem;
-}
-.reverseContDiv>div:nth-child(3){
-margin-top: 4rem;
-}
-.reverseContDiv>div:nth-child(4){
-margin-top: 0.75rem;
-}
-.reverseSect{
-position: absolute;
-width: 100%;
-z-index: 1;
-}
+  .transportationContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .transportationContDiv > div:nth-child(1) {
+    margin-top: 10em;
+  }
+  .transportationContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .transportationContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-items: flex-end; */
+    overflow: hidden;
+    /* padding: 0 5rem 0; */
+    /* margin-top: -200px; */
+    /* gap: 28px ;  */
+    /* padding: 0 2 0; */
+  }
+  .reverseContDiv > div:nth-child(1) {
+    margin-top: 10rem;
+  }
+  .reverseContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .reverseContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv > div:nth-child(4) {
+    margin-top: 0.75rem;
+  }
+  .reverseSect {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
 
+  /* Mission Section */
+  .missionSection > div:nth-child(1) p {
+    font-size: 1rem;
+  }
+  .missionContDiv {
+    padding: 2rem;
+    gap: 10px;
+  }
+  .missionDiv {
+    padding: 2rem;
+  }
+  .missionDiv img {
+    height: 4rem;
+  }
 
+  /* Team Section */
+  .temaSection > div:nth-child(2) {
+    /* width: 400px; */
+    width: 100%;
+  }
+  .temaContDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+  }
+  .temaContDiv > div:nth-child(1) {
+  }
 
+  .temaContDiv > div:nth-child(1) h5 {
+    font-size: 2;
+  }
+  .temaContDiv > div:nth-child(2) {
+    padding-top: 2;
+    max-width: 34rem;
+    color: #343a3e;
+  }
+  /* Last section */
+  .lastSection {
+    height: 62.5rem;
+  }
+  .lastSectContDiv {
+    position: absolute;
+    margin-top: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    width: 100%;
+    padding: 4rem;
+    /* margin-left: 5rem; */
+    font-size: 0.75rem;
+  }
+  .lastLinks ul li {
+    padding-bottom: 0.5rem;
+  }
+  .lastIcon {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+  }
 
-/* Mission Section */
-.missionSection > div:nth-child(1) p {
-font-size: 1rem;
+  /* Contact Us section */
+  .contactUsSect {
+    padding: 8rem 4rem;
+  }
+  .contactUsSect > div {
+    max-width: 17rem;
+  }
+  .frameDiv {
+    max-width: 30rem;
+    max-height: 23.5rem;
+    margin-top: -19.8rem;
+    margin-left: 29.5rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
 }
-.missionContDiv {
-padding: 2rem;
-gap: 10px;
-}
-.missionDiv {
-padding: 2rem;
-}
-.missionDiv img {
-height: 4rem;
-}
-
-/* Team Section */
-.temaSection > div:nth-child(2) {
-/* width: 400px; */
-width: 100%;
-}
-.temaContDiv {
-display: flex;
-justify-content: space-around;
-padding: 4rem 2rem;
-}
-.temaContDiv > div:nth-child(1) {
-}
-
-.temaContDiv > div:nth-child(1) h5 {
-font-size: 2;
-}
-.temaContDiv > div:nth-child(2) {
-padding-top: 2;
-max-width: 34rem;
-color: #343a3e;
-}
-/* Last section */
-.lastSection {
-height: 62.5rem;
-}
-.lastSectContDiv {
-position: absolute;
-margin-top: 17rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: #ffffff;
-width: 100%;
-padding: 4rem;
-/* margin-left: 5rem; */
-font-size: 0.75rem;
-}
-.lastLinks ul li {
-padding-bottom: 0.5rem;
-}
-.lastLinks ul li a {
-color: #b90470;
-padding-bottom: 2.5rem;
-}
-.lastIcon {
-display: flex;
-flex-direction: column;
-font-size: 1.25rem;
-}
-
-
-
-/* Contact Us section */
-.contactUsSect {
-padding: 8rem 4rem;
-}
-.contactUsSect > div {
-max-width: 17rem;
-}
-.frameDiv {
-max-width: 30rem;
-max-height: 23.5rem;
-margin-top: -19.8rem;
-margin-left: 29.5rem;
-}
-footer {
-font-size: 1rem;
-}
-}
-
-
-
-
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (max-width:1250px){
-
-  html{
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+  html {
     font-size: 16px;
     width: 100%;
-}
-header .infoP p{
+  }
+  header .infoP p {
     font-size: 1rem;
     font-weight: 400;
-}
-.sect1 nav{
-    padding:0 10rem 0;
+  }
+  .sect1 nav {
+    padding: 0 10rem 0;
     left: 9rem;
     right: 9rem;
-}
-.sect1 nav div>img{
+  }
+  .sect1 nav div > img {
     width: 12rem;
-}
-.sect1 .navLinks {
+  }
+  .sect1 .navLinks {
     width: 100%;
     padding: 2rem;
-}
-
-/* secondPart */
-.secondPart p {
+  }
+  /* secondPart */
+  .secondPart p {
     font-size: 1.25rem;
-}
-.secondPart button {
+  }
+  .secondPart button {
     padding: 0.75rem 2.5rem 0.75rem 1.75rem;
-}
-
-.infoSect .aboutPart{
+  }
+  .infoSect .aboutPart {
     display: flex;
     justify-content: space-evenly;
-}
-.aboutPart > div:nth-child(1) {
+  }
+  .aboutPart > div:nth-child(1) {
     padding-top: 8rem;
     margin-right: 5rem;
   }
-
-  .lorryImg img{
-
+  .lorryImg img {
     width: 100%;
   }
-
   .infoSect > div:nth-child(3) {
     padding: 2rem 10rem;
   }
-
   /* transportation Section */
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.55rem;
+  }
+  .transportationContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .transportationContDiv > div:nth-child(1) {
+    margin-top: 10em;
+  }
+  .transportationContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .transportationContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-items: flex-end; */
+    overflow: hidden;
+    /* padding: 0 5rem 0; */
+    /* margin-top: -200px; */
+    /* gap: 28px ;  */
+    /* padding: 0 2 0; */
+  }
+  .reverseContDiv > div:nth-child(1) {
+    margin-top: 10rem;
+  }
+  .reverseContDiv > div:nth-child(2) {
+    margin-top: 7rem;
+  }
+  .reverseContDiv > div:nth-child(3) {
+    margin-top: 4rem;
+  }
+  .reverseContDiv > div:nth-child(4) {
+    margin-top: 0.75rem;
+  }
+  .reverseSect {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
 
-.transportationDiv>div:nth-child(2) p{
-font-size: 0.55rem;
-}
+  /* Mission Section */
+  .missionSection > div:nth-child(1) p {
+    font-size: 1rem;
+  }
+  .missionContDiv {
+    padding: 2rem;
+    gap: 10px;
+  }
+  .missionDiv {
+    padding: 2rem;
+  }
+  .missionDiv img {
+    height: 4rem;
+  }
+  /* Team Section */
+  .temaSection > div:nth-child(2) {
+    width: 100%;
+  }
+  .temaContDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+  }
+  .temaContDiv > div:nth-child(1) {
+  }
 
-.transportationContDiv{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-overflow: hidden;
-}
-.transportationContDiv > div:nth-child(1) {
-margin-top: 10em;
-}
-.transportationContDiv > div:nth-child(2) {
-margin-top: 7rem;
-}
-.transportationContDiv > div:nth-child(3) {
-margin-top: 4rem;
-}
-.reverseContDiv {
-display: grid;
-grid-template-columns:  repeat(4, 1fr);
-/* justify-items: flex-end; */
-overflow: hidden;
-/* padding: 0 5rem 0; */
-/* margin-top: -200px; */
-/* gap: 28px ;  */
-/* padding: 0 2 0; */
-}
-.reverseContDiv>div:nth-child(1){
-margin-top: 10rem;
-}
-.reverseContDiv>div:nth-child(2){
-margin-top: 7rem;
-}
-.reverseContDiv>div:nth-child(3){
-margin-top: 4rem;
-}
-.reverseContDiv>div:nth-child(4){
-margin-top: 0.75rem;
-}
-.reverseSect{
-position: absolute;
-width: 100%;
-z-index: 1;
-}
-
-
-
-
-/* Mission Section */
-.missionSection > div:nth-child(1) p {
-font-size: 1rem;
-}
-.missionContDiv {
-padding: 2rem;
-gap: 10px;
-}
-.missionDiv {
-padding: 2rem;
-}
-.missionDiv img {
-height: 4rem;
-}
-
-/* Team Section */
-.temaSection > div:nth-child(2) {
-/* width: 400px; */
-width: 100%;
-}
-.temaContDiv {
-display: flex;
-justify-content: space-around;
-padding: 4rem 2rem;
-}
-.temaContDiv > div:nth-child(1) {
-}
-
-.temaContDiv > div:nth-child(1) h5 {
-font-size: 2;
-}
-.temaContDiv > div:nth-child(2) {
-padding-top: 2;
-max-width: 34rem;
-color: #343a3e;
-}
-/* Last section */
-.lastSection {
-height: 62.5rem;
-}
-.lastSectContDiv {
-position: absolute;
-margin-top: 17rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: #ffffff;
-width: 100%;
-padding: 4rem;
-/* margin-left: 5rem; */
-font-size: 0.75rem;
-}
-.lastLinks ul li {
-padding-bottom: 0.5rem;
-}
-.lastLinks ul li a {
-color: #b90470;
-padding-bottom: 2.5rem;
-}
-.lastIcon {
-display: flex;
-flex-direction: column;
-font-size: 1.25rem;
-}
-
-
-
-/* Contact Us section */
-.contactUsSect {
-padding: 8rem 4rem;
-}
-.contactUsSect > div {
-max-width: 17rem;
-}
-.frameDiv {
-max-width: 30rem;
-max-height: 23.5rem;
-margin-top: -19.8rem;
-margin-left: 29.5rem;
-}
-footer {
-font-size: 1rem;
-}
-
+  .temaContDiv > div:nth-child(1) h5 {
+    font-size: 2;
+  }
+  .temaContDiv > div:nth-child(2) {
+    padding-top: 2;
+  }
+  /* Last section */
+  .lastSection {
+    height: 62.5rem;
+  }
+  .lastSectContDiv {
+    width: 100%;
+  }
+  .lastLinks ul li {
+    padding-bottom: 0.5rem;
+  }
+  .lastIcon {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+  }
+  /* Contact Us section */
+  .contactUsSect {
+    padding: 8rem 4rem;
+  }
+  .contactUsSect > div {
+    max-width: 17rem;
+  }
+  .frameDiv {
+    max-width: 30rem;
+    max-height: 23.5rem;
+    margin-top: -19.8rem;
+    margin-left: 29.5rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
 }
