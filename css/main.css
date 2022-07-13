@@ -167,6 +167,9 @@ nav {
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(119, 119, 119, 0.25);
 }
+.transportationDiv>div:nth-child(1) img{
+  width: 100% !important;
+}
 .transportationDiv > div:nth-child(2) {
   padding: 1rem;
 }
@@ -216,6 +219,9 @@ nav {
   position: absolute;
   width: 100%;
   z-index: 1;
+}
+.reverseContDiv>div:nth-child(1){
+  visibility: hidden;
 }
 /* Mission Section */
 .missionSection {
