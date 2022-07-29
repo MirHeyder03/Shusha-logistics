@@ -42,34 +42,34 @@
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationContDiv{
+  .transportationContDiv {
     width: 100%;
     display: flex;
     overflow: hidden;
     gap: 5px;
   }
-  .transportationDiv{
+  .transportationDiv {
     height: 20rem;
   }
- .transportationDiv>div:nth-child(1) img{
+  .transportationDiv > div:nth-child(1) img {
     width: 14rem;
- }
- .transportationDiv>div:nth-child(2) h4{
+  }
+  .transportationDiv > div:nth-child(2) h4 {
     font-size: 1rem;
- }
- .transportationDiv>div:nth-child(2) p{
-  font-size: 0.65rem;
- }
- .reverseSect{
-  width: 100%;
-  display: flex;
-  gap: 5px;
-  margin-top:14.5rem ;
- }
- .reverseContDiv{
-  width: 100%;
-  display: flex;
- }
+  }
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.65rem;
+  }
+  .reverseSect {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    margin-top: 14.5rem;
+  }
+  .reverseContDiv {
+    width: 100%;
+    display: flex;
+  }
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
     font-size: 1rem;
@@ -113,7 +113,7 @@
     margin-top: -19.8rem;
     margin-left: 29.5rem;
   }
-  .transparentPict img{
+  .transparentPict img {
     width: 100%;
     overflow: hidden;
   }
@@ -168,33 +168,33 @@
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationContDiv{
+  .transportationContDiv {
     width: 100%;
     display: flex;
     gap: 5px;
   }
-  .transportationDiv{
+  .transportationDiv {
     height: 22rem;
   }
- .transportationDiv>div:nth-child(1) img{
-    width: 13.5rem; 
- }
- .transportationDiv>div:nth-child(2) h4{
+  .transportationDiv > div:nth-child(1) img {
+    width: 13.5rem;
+  }
+  .transportationDiv > div:nth-child(2) h4 {
     font-size: 1rem;
- }
- .transportationDiv>div:nth-child(2) p{
-  font-size: 0.65rem;
- }
- .reverseSect{
-  width: 100%;
-  display: flex;
-  margin-top:7.5rem ;
- }
- .reverseContDiv{
-  width: 100%;
-  display: flex;
-  gap: 5px;
- }
+  }
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.65rem;
+  }
+  .reverseSect {
+    width: 100%;
+    display: flex;
+    margin-top: 7.5rem;
+  }
+  .reverseContDiv {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+  }
   .transparentPict img {
     width: 100%;
   }
@@ -318,33 +318,33 @@
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationContDiv{
+  .transportationContDiv {
     width: 100%;
     display: flex;
     gap: 5px;
   }
-  .transportationDiv{
+  .transportationDiv {
     height: 24rem;
   }
- .transportationDiv>div:nth-child(1) img{
-    width: 15.5rem; 
- }
- .transportationDiv>div:nth-child(2) h4{
+  .transportationDiv > div:nth-child(1) img {
+    width: 15.5rem;
+  }
+  .transportationDiv > div:nth-child(2) h4 {
     font-size: 1.25rem;
- }
- .transportationDiv>div:nth-child(2) p{
-  font-size: 0.75rem;
- }
- .reverseSect{
-  width: 100%;
-  display: flex;
-  margin-top:7.5rem ;
- }
- .reverseContDiv{
-  width: 100%;
-  display: flex;
-  gap: 5px;
- }
+  }
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.75rem;
+  }
+  .reverseSect {
+    width: 100%;
+    display: flex;
+    margin-top: 7.5rem;
+  }
+  .reverseContDiv {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+  }
   .transparentPict img {
     width: 100%;
   }
@@ -363,7 +363,7 @@
     height: 4rem;
   }
   /* Team Section */
-  .temaSection > div:nth-child(2) img{
+  .temaSection > div:nth-child(2) img {
     width: 100%;
   }
   .temaContDiv {
@@ -457,33 +457,33 @@
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationContDiv{
+  .transportationContDiv {
     width: 100%;
     display: flex;
     gap: 5px;
   }
-  .transportationDiv{
+  .transportationDiv {
     height: 24rem;
   }
- .transportationDiv>div:nth-child(1) img{
-    width: 15.5rem; 
- }
- .transportationDiv>div:nth-child(2) h4{
+  .transportationDiv > div:nth-child(1) img {
+    width: 15.5rem;
+  }
+  .transportationDiv > div:nth-child(2) h4 {
     font-size: 1.25rem;
- }
- .transportationDiv>div:nth-child(2) p{
-  font-size: 0.75rem;
- }
- .reverseSect{
-  width: 100%;
-  display: flex;
-  margin-top:7.5rem ;
- }
- .reverseContDiv{
-  width: 100%;
-  display: flex;
-  gap: 5px;
- }
+  }
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.75rem;
+  }
+  .reverseSect {
+    width: 100%;
+    display: flex;
+    margin-top: 7.5rem;
+  }
+  .reverseContDiv {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+  }
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
     font-size: 1rem;
@@ -498,11 +498,11 @@
   .missionDiv img {
     height: 4rem;
   }
-.lorryImg img{
-  width: 100%;
-}
+  .lorryImg img {
+    width: 100%;
+  }
   /* Team Section */
- .temaSection > div:nth-child(2) {
+  .temaSection > div:nth-child(2) {
     width: 100%;
   }
   .temaContDiv {
@@ -593,33 +593,33 @@
     padding: 2rem 10rem;
   }
   /* transportation Section */
-  .transportationContDiv{
+  .transportationContDiv {
     width: 100%;
     display: flex;
     gap: 5px;
   }
-  .transportationDiv{
+  .transportationDiv {
     height: 24rem;
   }
- .transportationDiv>div:nth-child(1) img{
-    width: 15.5rem; 
- }
- .transportationDiv>div:nth-child(2) h4{
+  .transportationDiv > div:nth-child(1) img {
+    width: 15.5rem;
+  }
+  .transportationDiv > div:nth-child(2) h4 {
     font-size: 1.25rem;
- }
- .transportationDiv>div:nth-child(2) p{
-  font-size: 0.75rem;
- }
- .reverseSect{
-  width: 100%;
-  display: flex;
-  margin-top:0.5rem ;
- }
- .reverseContDiv{
-  width: 100%;
-  display: flex;
-  gap: 5px;
- }
+  }
+  .transportationDiv > div:nth-child(2) p {
+    font-size: 0.75rem;
+  }
+  .reverseSect {
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  .reverseContDiv {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+  }
   /* Mission Section */
   .missionSection > div:nth-child(1) p {
     font-size: 1rem;
