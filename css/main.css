@@ -280,8 +280,6 @@ nav {
   justify-content: space-around;
   padding: 4rem 2rem;
 }
-.temaContDiv > div:nth-child(1) {
-}
 .temaContDiv > div:nth-child(1) p {
   color: #b90470;
 }
@@ -341,7 +339,6 @@ nav {
   margin-bottom: 5rem;
   padding-right: 5rem;
 }
-
 .transparentPict {
   background: url("../images/Group75.png");
   z-index: 4;
@@ -390,9 +387,7 @@ nav {
   padding: 2rem 0.75rem 0.75rem;
   font-size: 1.25rem;
 }
-
 footer {
-  /* height: 3rem; */
   display: flex;
   padding: 1rem 3rem;
   justify-content: space-between;
